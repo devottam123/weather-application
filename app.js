@@ -30,12 +30,7 @@ app.post("/", function(req, res){
       res.write("<h1>The temperature in"+ query +" is "+temp+" degrees Celsius.</h1>");
       res.write("<img src="+imageURL+">");
       res.send();
-      // const object = {
-      //   name: "Devottam",
-      //   job: "Full-stack Web Developer"
-      // }
-      // console.log(JSON.stringify(object));
-
+      
     })
   })
 
